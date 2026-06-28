@@ -1,0 +1,586 @@
+[
+  {
+    "nombre": "Arqui. Ricardo Carbajal",
+    "telefono": "5617272296",
+    "telRaw": "56 1727 2296",
+    "compro": "si",
+    "fechaCompra": "2026-05-23",
+    "direccion": "leyes de reforma Iztapalapa"
+  },
+  {
+    "nombre": "Javier Mendoza",
+    "telefono": "5548049470",
+    "telRaw": "55 4804 9470",
+    "compro": "si",
+    "fechaCompra": "2026-05-23",
+    "direccion": "Valle dorado"
+  },
+  {
+    "nombre": "Arq. Marco Antonio Uribe",
+    "telefono": "5649811488",
+    "telRaw": "56 4981 1488",
+    "compro": "si",
+    "fechaCompra": "2026-06-05",
+    "direccion": "Penalistas 48, San Juanico Nextipac, Iztapalapa, 09400 Ciudad de México, CDMX"
+  },
+  {
+    "nombre": "Alex Gutierrez",
+    "telefono": "5580345718",
+    "telRaw": "55 8034 5718",
+    "compro": "si",
+    "fechaCompra": "2026-06-05",
+    "direccion": "Servicios publicos de Naucalpan"
+  },
+  {
+    "nombre": "Emilio Lozano",
+    "telefono": "5551550724",
+    "telRaw": "55 5155 0724",
+    "compro": "si",
+    "fechaCompra": "2026-06-18",
+    "direccion": "tepito Ciudad de México, Cd. de México"
+  },
+  {
+    "nombre": "Hector Molina",
+    "telefono": "5518501513",
+    "telRaw": "55 1850 1513",
+    "compro": "si",
+    "fechaCompra": "2026-05-18",
+    "direccion": ""
+  },
+  {
+    "nombre": "VENTA RENTA MTTO",
+    "telefono": "5522609621",
+    "telRaw": "55 2260 9621",
+    "compro": "si",
+    "fechaCompra": "2026-05-18",
+    "direccion": "xochimilco"
+  },
+  {
+    "nombre": "Jesús Oria Chavez",
+    "telefono": "5524919984",
+    "telRaw": "55 2491 9984",
+    "compro": "si",
+    "fechaCompra": "2026-05-18",
+    "direccion": ""
+  },
+  {
+    "nombre": "isai",
+    "telefono": "5638677743",
+    "telRaw": "56 3867 7743",
+    "compro": "si",
+    "fechaCompra": "2026-04-18",
+    "direccion": ""
+  },
+  {
+    "nombre": "Mauricio Arellano",
+    "telefono": "5624501403",
+    "telRaw": "56 2450 1403",
+    "compro": "si",
+    "fechaCompra": "2026-04-18",
+    "direccion": "Cliente Rocio"
+  },
+  {
+    "nombre": "Manuel Sánchez",
+    "telefono": "5540778821",
+    "telRaw": "55 4077 8821",
+    "compro": "si",
+    "fechaCompra": "2025-09-18",
+    "direccion": ""
+  },
+  {
+    "nombre": "Ezequiel",
+    "telefono": "5513411866",
+    "telRaw": "55 1341 1866",
+    "compro": "si",
+    "fechaCompra": "2025-09-18",
+    "direccion": ""
+  },
+  {
+    "nombre": "Arq.marlon garcia",
+    "telefono": "7711284788",
+    "telRaw": "771 128 4788",
+    "compro": "si",
+    "fechaCompra": "2025-09-18",
+    "direccion": "izcalli"
+  },
+  {
+    "nombre": "Pedro Rodriguez",
+    "telefono": "2225637477",
+    "telRaw": "222 563 7477",
+    "compro": "si",
+    "fechaCompra": "2025-09-18",
+    "direccion": ""
+  },
+  {
+    "nombre": "Mario",
+    "telefono": "5549584985",
+    "telRaw": "55 4958 4985",
+    "compro": "si",
+    "fechaCompra": "2025-09-18",
+    "direccion": ""
+  },
+  {
+    "nombre": "Javier Canul",
+    "telefono": "5554081811",
+    "telRaw": "55 5408 1811",
+    "compro": "si",
+    "fechaCompra": "2025-09-18",
+    "direccion": "echegaray"
+  },
+  {
+    "nombre": "antonio petron",
+    "telefono": "3329057779",
+    "telRaw": "33 2905 7779",
+    "compro": "si",
+    "fechaCompra": "2025-09-18",
+    "direccion": "nicolas Romero"
+  },
+  {
+    "nombre": "Velazquez",
+    "telefono": "5525165439",
+    "telRaw": "55 2516 5439",
+    "compro": "si",
+    "fechaCompra": "2025-11-18",
+    "direccion": "cuajimalpa"
+  },
+  {
+    "nombre": "Joel B",
+    "telefono": "2221551060",
+    "telRaw": "222 155 1060",
+    "compro": "si",
+    "fechaCompra": "2025-11-18",
+    "direccion": "nicolas Romero"
+  },
+  {
+    "nombre": "Ing. LEONARDO",
+    "telefono": "5544939644",
+    "telRaw": "55 4493 9644",
+    "compro": "si",
+    "fechaCompra": "2026-01-18",
+    "direccion": "Yautepec morelos"
+  },
+  {
+    "nombre": "Josh",
+    "telefono": "5512451257",
+    "telRaw": "55 1245 1257",
+    "compro": "si",
+    "fechaCompra": "2025-11-18",
+    "direccion": "cuajimalpa"
+  },
+  {
+    "nombre": "Juan Carlos",
+    "telefono": "5517598441",
+    "telRaw": "55 1759 8441",
+    "compro": "si",
+    "fechaCompra": "2025-12-18",
+    "direccion": "tepito Ciudad de México, Cd. de México"
+  },
+  {
+    "nombre": "Arq. Estefani",
+    "telefono": "5531230506",
+    "telRaw": "55 3123 0506",
+    "compro": "si",
+    "fechaCompra": "2025-12-18",
+    "direccion": "xochimilco"
+  },
+  {
+    "nombre": "Wicho",
+    "telefono": "5613513083",
+    "telRaw": "56 1351 3083",
+    "compro": "si",
+    "fechaCompra": "2025-12-18",
+    "direccion": "zumpango"
+  },
+  {
+    "nombre": "daniel",
+    "telefono": "5578987922",
+    "telRaw": "55 7898 7922",
+    "compro": "si",
+    "fechaCompra": "2025-12-18",
+    "direccion": "ozumbilla"
+  },
+  {
+    "nombre": "Ale /edson torres",
+    "telefono": "5516051051",
+    "telRaw": "55 1605 1051",
+    "compro": "si",
+    "fechaCompra": "2026-04-18",
+    "direccion": "Aragon"
+  },
+  {
+    "nombre": "Maribel De Anda",
+    "telefono": "5526900555",
+    "telRaw": "55 2690 0555",
+    "compro": "si",
+    "fechaCompra": "2026-06-18",
+    "direccion": "Valle De Bravo"
+  },
+  {
+    "nombre": "Gamaliel",
+    "telefono": "5511948657",
+    "telRaw": "55 1194 8657",
+    "compro": "si",
+    "fechaCompra": "2026-06-18",
+    "direccion": "Cráter Atlas 376, Selene 1ra Secc, Tláhuac, 13420 Ciudad de México, CDMX"
+  },
+  {
+    "nombre": "Arq. Rolando",
+    "telefono": "5512109622",
+    "telRaw": "55 1210 9622",
+    "compro": "si",
+    "fechaCompra": "2026-06-18",
+    "direccion": "polanco"
+  },
+  {
+    "nombre": "Arqui. Miguel",
+    "telefono": "5539596588",
+    "telRaw": "55 3959 6588",
+    "compro": "si",
+    "fechaCompra": "2026-06-18",
+    "direccion": "tlalpan"
+  },
+  {
+    "nombre": "Ani",
+    "telefono": "7831388651",
+    "telRaw": "783 138 8651",
+    "compro": "si",
+    "fechaCompra": "2026-06-18",
+    "direccion": "tultutlan"
+  },
+  {
+    "nombre": "Max Cid",
+    "telefono": "5645641941",
+    "telRaw": "56 4564 1941",
+    "compro": "si",
+    "fechaCompra": "2026-06-18",
+    "direccion": "nicolas Romero"
+  },
+  {
+    "nombre": "Mario Guerra",
+    "telefono": "5575374751",
+    "telRaw": "55 7537 4751",
+    "compro": "si",
+    "fechaCompra": "2026-06-18",
+    "direccion": "Aragon"
+  },
+  {
+    "nombre": "José Cruz",
+    "telefono": "5612050068",
+    "telRaw": "56 1205 0068",
+    "compro": "si",
+    "fechaCompra": "2026-06-18",
+    "direccion": "alvaro obregon"
+  },
+  {
+    "nombre": "Arq. Flavio",
+    "telefono": "5543433138",
+    "telRaw": "55 4343 3138",
+    "compro": "si",
+    "fechaCompra": "2026-06-18",
+    "direccion": "polanco"
+  },
+  {
+    "nombre": "Arq. Roberto",
+    "telefono": "5521898983",
+    "telRaw": "55 2189 8983",
+    "compro": "si",
+    "fechaCompra": "2026-04-18",
+    "direccion": "polanco"
+  },
+  {
+    "nombre": "Paulina",
+    "telefono": "5575099749",
+    "telRaw": "55 7509 9749",
+    "compro": "si",
+    "fechaCompra": "2026-04-18",
+    "direccion": "naucalpa"
+  },
+  {
+    "nombre": "Ing. Roberto Anaya Moreno",
+    "telefono": "5519041717",
+    "telRaw": "55 1904 1717",
+    "compro": "si",
+    "fechaCompra": "2026-04-18",
+    "direccion": "San jeronimo"
+  },
+  {
+    "nombre": "tecno lara",
+    "telefono": "5529932217",
+    "telRaw": "55 2993 2217",
+    "compro": "SI",
+    "fechaCompra": "2026-04-18",
+    "direccion": "CENTRO"
+  },
+  {
+    "nombre": "Abraham Mares",
+    "telefono": "5547571445",
+    "telRaw": "55 4757 1445",
+    "compro": "si",
+    "fechaCompra": "2026-04-18",
+    "direccion": "toluca"
+  },
+  {
+    "nombre": "ILULAC + I M A E",
+    "telefono": "5573034922",
+    "telRaw": "55 7303 4922",
+    "compro": "si",
+    "fechaCompra": "2026-04-18",
+    "direccion": "el copal"
+  },
+  {
+    "nombre": "Arq. Ricardo Rubio",
+    "telefono": "5525372864",
+    "telRaw": "55 2537 2864",
+    "compro": "si",
+    "fechaCompra": "2026-04-18",
+    "direccion": "tv Azteca"
+  },
+  {
+    "nombre": "Arq. Maribel",
+    "telefono": "5551022044",
+    "telRaw": "55 5102 2044",
+    "compro": "si",
+    "fechaCompra": "2026-04-18",
+    "direccion": "tv Azteca"
+  },
+  {
+    "nombre": "Alberto",
+    "telefono": "5632154496",
+    "telRaw": "56 3215 4496",
+    "compro": "SI",
+    "fechaCompra": "2026-06-18",
+    "direccion": "Recogio en planta"
+  },
+  {
+    "nombre": "Jonathan",
+    "telefono": "5525149678",
+    "telRaw": "55 2514 9678",
+    "compro": "si",
+    "fechaCompra": "2026-06-18",
+    "direccion": "alvaro obregon"
+  },
+  {
+    "nombre": "Beto",
+    "telefono": "5544916432",
+    "telRaw": "55 4491 6432",
+    "compro": "si",
+    "fechaCompra": "2026-04-18",
+    "direccion": "naucalpa"
+  },
+  {
+    "nombre": "Guadalupe Martines",
+    "telefono": "5532629459",
+    "telRaw": "55 3262 9459",
+    "compro": "si",
+    "fechaCompra": "2025-12-18",
+    "direccion": "Cuautepec"
+  },
+  {
+    "nombre": "Gilberto Jimenez",
+    "telefono": "5614196056",
+    "telRaw": "56 1419 6056",
+    "compro": "si",
+    "fechaCompra": "2026-04-18",
+    "direccion": "Cuautitlan Izcalli"
+  },
+  {
+    "nombre": "ALWAYS CRAZY",
+    "telefono": "7202379099",
+    "telRaw": "720 237 9099",
+    "compro": "si",
+    "fechaCompra": "2026-04-18",
+    "direccion": "villa del carbon"
+  },
+  {
+    "nombre": "CECILIO ZEPEDA ESTRADA",
+    "telefono": "7225607698",
+    "telRaw": "722 560 7698",
+    "compro": "si",
+    "fechaCompra": "2026-03-21",
+    "direccion": "San Isidro Ejido de Calixtlahuaca, Estado de México"
+  },
+  {
+    "nombre": "wilie",
+    "telefono": "5646069716",
+    "telRaw": "56 4606 9716",
+    "compro": "si",
+    "fechaCompra": "2026-03-21",
+    "direccion": "Tenayuca Tlalnepantla"
+  },
+  {
+    "nombre": "Yoni",
+    "telefono": "5518807240",
+    "telRaw": "55 1880 7240",
+    "compro": "si",
+    "fechaCompra": "2026-03-21",
+    "direccion": "Fray Pedro de Córdoba 242, Vasco de Quiroga, Col del Obrero, Gustavo A. Madero, 07430 Ciudad de México, CDMX"
+  },
+  {
+    "nombre": "Antonio Magaña",
+    "telefono": "5510084671",
+    "telRaw": "55 1008 4671",
+    "compro": "si",
+    "fechaCompra": "2026-03-21",
+    "direccion": "villa del carbon"
+  },
+  {
+    "nombre": "Enrique Uzua",
+    "telefono": "5567710746",
+    "telRaw": "55 6771 0746",
+    "compro": "si",
+    "fechaCompra": "2026-03-21",
+    "direccion": "Azcapotzalco"
+  },
+  {
+    "nombre": "Omar Tultitlan",
+    "telefono": "5539011700",
+    "telRaw": "55 3901 1700",
+    "compro": "si",
+    "fechaCompra": "2026-03-21",
+    "direccion": "tultutlan / obra"
+  },
+  {
+    "nombre": "Arq. Pablo Villar",
+    "telefono": "5529514419",
+    "telRaw": "55 2951 4419",
+    "compro": "si",
+    "fechaCompra": "2026-03-21",
+    "direccion": "Azcapotzalco"
+  },
+  {
+    "nombre": "Paulina Martinez",
+    "telefono": "5532932397",
+    "telRaw": "55 3293 2397",
+    "compro": "si",
+    "fechaCompra": "2026-03-21",
+    "direccion": "tepito Ciudad de México, Cd. de México"
+  },
+  {
+    "nombre": "Arq. Alemao Tello",
+    "telefono": "5533990655",
+    "telRaw": "55 3399 0655",
+    "compro": "si",
+    "fechaCompra": "2026-03-21",
+    "direccion": "Tepotzotlan"
+  },
+  {
+    "nombre": "Arq. Sofia",
+    "telefono": "5591996087",
+    "telRaw": "55 9199 6087",
+    "compro": "si",
+    "fechaCompra": "2026-03-21",
+    "direccion": "Telcel M.R., Francisco Villa 3, San Miguel, Gustavo A. Madero, 07160 Ciudad de México, CDMX"
+  },
+  {
+    "nombre": "edgar ortiz",
+    "telefono": "5529095523",
+    "telRaw": "55 2909 5523",
+    "compro": "si",
+    "fechaCompra": "2026-04-18",
+    "direccion": "nicolas Romero"
+  },
+  {
+    "nombre": "Eduardo Morales",
+    "telefono": "5529150201",
+    "telRaw": "55 2915 0201",
+    "compro": "si",
+    "fechaCompra": "2026-04-18",
+    "direccion": "Tizapan cdmx"
+  },
+  {
+    "nombre": "Diego",
+    "telefono": "5588205283",
+    "telRaw": "55 8820 5283",
+    "compro": "si",
+    "fechaCompra": "2026-04-18",
+    "direccion": "Recogio en planta"
+  },
+  {
+    "nombre": "Juan Olvera",
+    "telefono": "5578914802",
+    "telRaw": "55 7891 4802",
+    "compro": "si",
+    "fechaCompra": "2026-04-18",
+    "direccion": "Felipe Carrillo Puerto 12, Zacatepec, Iztapalapa, 09560 Ciudad de México, CDMX"
+  },
+  {
+    "nombre": "JAVIER RODRIGUEZ CELIS",
+    "telefono": "5548414759",
+    "telRaw": "55 4841 4759",
+    "compro": "si",
+    "fechaCompra": "2026-04-18",
+    "direccion": "tlahuac"
+  },
+  {
+    "nombre": "Josué",
+    "telefono": "5531458760",
+    "telRaw": "55 3145 8760",
+    "compro": "si",
+    "fechaCompra": "2026-04-18",
+    "direccion": "naucalpa"
+  },
+  {
+    "nombre": "Jose Luis Jimenez",
+    "telefono": "5560919875",
+    "telRaw": "55 6091 9875",
+    "compro": "si",
+    "fechaCompra": "2026-04-18",
+    "direccion": "Coapa, Avante, Coyoacán, 04460 Ciudad de México, CDMX"
+  },
+  {
+    "nombre": "Sr Cristóbal Vázquez",
+    "telefono": "6692184852",
+    "telRaw": "669 218 4852",
+    "compro": "si",
+    "fechaCompra": "2026-04-18",
+    "direccion": "Coapa, Avante, Coyoacán, 04460 Ciudad de México, CDMX"
+  },
+  {
+    "nombre": "Eduardo Ramirez",
+    "telefono": "5554354921",
+    "telRaw": "55 5435 4921",
+    "compro": "si",
+    "fechaCompra": "2026-04-18",
+    "direccion": "Montecillo 11, Tetecala, Tlalpan, 16810 Ciudad de México, CDMX"
+  },
+  {
+    "nombre": "Angelica flores",
+    "telefono": "5566572854",
+    "telRaw": "55 66572854",
+    "compro": "si",
+    "fechaCompra": "2026-04-18",
+    "direccion": "Montecillo 11, Tetecala, Tlalpan, 16810 Ciudad de México, CDMX"
+  },
+  {
+    "nombre": "Rodrigo atlaxa",
+    "telefono": "5543486094",
+    "telRaw": "55 43486094",
+    "compro": "si",
+    "fechaCompra": "2026-04-18",
+    "direccion": "Coacalco"
+  },
+  {
+    "nombre": "Emanuel",
+    "telefono": "5540634634",
+    "telRaw": "55 40634634",
+    "compro": "si",
+    "fechaCompra": "2025-04-18",
+    "direccion": "tlahuac"
+  },
+  {
+    "nombre": "Arquitecta Clienta mary",
+    "telefono": "5519560897",
+    "telRaw": "55 19560897",
+    "compro": "si",
+    "fechaCompra": "2024-12-21",
+    "direccion": "tlahuac"
+  },
+  {
+    "nombre": "Serguio Fuentes",
+    "telefono": "5522979257",
+    "telRaw": "55 22979257",
+    "compro": "si",
+    "fechaCompra": "2024-12-21",
+    "direccion": "Azcapotzalco"
+  }
+]

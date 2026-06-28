@@ -1,0 +1,21 @@
+IMÁGENES DE LA LANDING (página /agenda)
+========================================
+
+Para que la landing muestre TUS fotos reales, guarda aquí estas imágenes
+con EXACTAMENTE estos nombres (en minúsculas):
+
+1) hero.jpg
+   - Foto que aparece dentro del círculo naranja del encabezado.
+   - Recomendado: foto de tu equipo en obra o de un trabajador con casco.
+   - Ejemplo: la foto del señor con tablet y casco amarillo.
+
+2) banner.jpg
+   - Foto de fondo de la franja "Construimos contigo…".
+   - Recomendado: foto horizontal de una obra / losa / construcción.
+
+Cómo agregarlas:
+- Arrastra los archivos a esta carpeta:  public/img/
+- Si no pones las fotos, la landing se ve bien igual (usa los colores de la marca).
+- Tamaño ideal: hero.jpg ~800x800 px, banner.jpg ~1600x600 px. Formato .jpg o .png.
+
+El catálogo descargable está en:  public/catalogo/catalogo-vita-construye.pdf

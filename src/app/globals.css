@@ -1,0 +1,195 @@
+@import "tailwindcss";
+
+/* ─── TOKENS DE DISEÑO VITA CONSTRUYE ─────────────────────────────────────── */
+@theme inline {
+  /* Color de marca: Naranja Vita Construye — cámbialo AQUÍ y se actualiza todo */
+  --color-brand:       #e8965a;
+  --color-brand-dark:  #d4803e;
+  --color-brand-light: #f5b383;
+  --color-brand-bg:    #fff5ee;
+
+  /* Azul marino Vita Construye (del logo) — color secundario de marca */
+  --color-navy:        #1b2a4a;  /* azul marino oscuro del logo */
+  --color-navy-dark:   #121d35;  /* navy más profundo (fondos) */
+  --color-navy-light:  #2d4470;  /* navy claro (hover) */
+  --color-navy-bg:     #eef1f7;  /* fondo suave navy */
+
+  /* Acento por sección */
+  --color-acento-clientes:    #3b82f6;  /* azul */
+  --color-acento-embudo:      #8b5cf6;  /* violeta */
+  --color-acento-agenda:      #22c55e;  /* verde */
+  --color-acento-pagos:       #10b981;  /* esmeralda */
+  --color-acento-seguimiento: #f59e0b;  /* ámbar */
+  --color-acento-completados: #16a34a;  /* verde éxito */
+  --color-acento-perdidos:    #6b7280;  /* gris neutro */
+  --color-acento-archivados:  #78716c;  /* gris piedra */
+  --color-acento-equipo:      #06b6d4;  /* cian */
+  --color-acento-admin:       #e8965a;  /* marca */
+
+  /* Superficies */
+  --color-surface:        #ffffff;
+  --color-surface-raised: #f9f9f9;
+  --color-surface-border: #e5e7eb;
+  --color-surface-glass:  rgba(255,255,255,0.7);
+
+  /* Texto */
+  --color-text-primary:   #111827;
+  --color-text-secondary: #6b7280;
+  --color-text-muted:     #9ca3af;
+
+  /* Semáforo */
+  --color-success: #16a34a;
+  --color-warning: #d97706;
+  --color-danger:  #dc2626;
+  --color-info:    #2563eb;
+
+  /* Radios */
+  --radius-card:  0.75rem;
+  --radius-modal: 1rem;
+  --radius-btn:   0.5rem;
+
+  /* Sombras */
+  --shadow-card:   0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.06);
+  --shadow-raised: 0 4px 12px rgba(0,0,0,0.10), 0 2px 4px rgba(0,0,0,0.06);
+  --shadow-modal:  0 20px 60px rgba(0,0,0,0.15), 0 8px 24px rgba(0,0,0,0.08);
+
+  /* Tipografía */
+  --font-sans: var(--font-geist-sans), system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), monospace;
+  --text-base: 1rem;
+
+  /* Fondo y texto por defecto */
+  --color-background: #f8f7f6;
+  --color-foreground:  #111827;
+}
+
+/* Variables de marca garantizadas en :root (se usan como var() directas) */
+:root {
+  --color-navy:       #1b2a4a;
+  --color-navy-dark:  #121d35;
+  --color-navy-light: #2d4470;
+  --color-navy-bg:    #eef1f7;
+}
+
+/* ─── TEMA OSCURO ──────────────────────────────────────────────────────────── */
+.dark {
+  --color-surface:        #1a1a1a;
+  --color-surface-raised: #242424;
+  --color-surface-border: #333333;
+  --color-surface-glass:  rgba(26,26,26,0.80);
+  --color-text-primary:   #f3f4f6;
+  --color-text-secondary: #9ca3af;
+  --color-text-muted:     #6b7280;
+  --color-background:     #111111;
+  --color-foreground:     #f3f4f6;
+  --color-brand-bg:       #2a1a0e;
+}
+
+/* ─── BASE ─────────────────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+  min-height: 100vh;
+}
+
+/* ─── LIQUID GLASS ─────────────────────────────────────────────────────────── */
+.glass {
+  background: var(--color-surface-glass);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--color-surface-border);
+}
+
+/* ─── SCROLLBAR DELGADA ────────────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--color-surface-border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--color-text-muted); }
+
+/* ─── FOCUS VISIBLE ────────────────────────────────────────────────────────── */
+:focus-visible {
+  outline: 2px solid var(--color-brand);
+  outline-offset: 2px;
+}
+
+/* ─── TRANSICIONES DE PÁGINA ───────────────────────────────────────────────── */
+@media (prefers-reduced-motion: no-preference) {
+  .page-transition {
+    animation: fadeSlideIn 0.2s ease-out;
+  }
+}
+
+@keyframes fadeSlideIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ─── SKELETON ─────────────────────────────────────────────────────────────── */
+.skeleton {
+  background: linear-gradient(90deg,
+    var(--color-surface-border) 25%,
+    var(--color-surface-raised) 50%,
+    var(--color-surface-border) 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: 0.375rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skeleton { animation: none; background: var(--color-surface-border); }
+}
+
+@keyframes shimmer {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* ─── NOMBRE DE CLIENTE CLICABLE ───────────────────────────────────────────── */
+.nombre-cliente {
+  color: var(--color-brand-dark);
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+}
+.nombre-cliente:hover { text-decoration: underline; }
+
+/* ─── BADGE DE TEMPERATURA ─────────────────────────────────────────────────── */
+.badge-caliente { color: #f97316; }
+.badge-tibio    { color: #eab308; }
+.badge-frio     { color: #60a5fa; }
+
+/* ─── KANBAN DRAG ──────────────────────────────────────────────────────────── */
+.kanban-dragging {
+  opacity: 0.5;
+  transform: rotate(2deg);
+}
+
+/* ─── TOAST ────────────────────────────────────────────────────────────────── */
+.toast-container {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* ─── PRINT ────────────────────────────────────────────────────────────────── */
+@media print {
+  .no-print { display: none !important; }
+  body { background: white; color: black; }
+}
