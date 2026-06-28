@@ -4,6 +4,7 @@ import { Search, Bell, HelpCircle, Sun, Moon, Monitor, LogOut, User, Settings } 
 import { cn, iniciales } from "@/lib/utils";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import MobileMenu from "./MobileMenu";
 
 interface TopBarProps {
   usuario: { nombre: string; rol: string; foto?: string | null; temaPreferencia?: string };
@@ -22,6 +23,9 @@ export default function TopBar({ usuario, notificacionesNoLeidas = 0 }: TopBarPr
 
   return (
     <header className="h-16 flex items-center gap-3 px-4 md:px-6 border-b border-[var(--color-surface-border)] bg-[var(--color-surface)] sticky top-0 z-20 glass">
+      {/* Menú móvil (todas las secciones) */}
+      <MobileMenu rol={usuario.rol} />
+
       {/* Buscador (escritorio) */}
       <button
         onClick={() => router.push("/clientes?buscar=true")}
